@@ -1,0 +1,15 @@
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\Automotriz\Automotriz\obj\Debug\net7.0\Automotriz.csproj.AssemblyReference.cache
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\Automotriz\Automotriz\obj\Debug\net7.0\Automotriz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\Automotriz\Automotriz\obj\Debug\net7.0\Automotriz.AssemblyInfoInputs.cache
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\Automotriz\Automotriz\obj\Debug\net7.0\Automotriz.AssemblyInfo.cs
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\Automotriz\Automotriz\obj\Debug\net7.0\Automotriz.csproj.CoreCompileInputs.cache
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\Automotriz\Automotriz\bin\Debug\net7.0\Automotriz.exe
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\Automotriz\Automotriz\bin\Debug\net7.0\Automotriz.deps.json
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\Automotriz\Automotriz\bin\Debug\net7.0\Automotriz.runtimeconfig.json
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\Automotriz\Automotriz\bin\Debug\net7.0\Automotriz.dll
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\Automotriz\Automotriz\bin\Debug\net7.0\Automotriz.pdb
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\Automotriz\Automotriz\obj\Debug\net7.0\Automotriz.dll
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\Automotriz\Automotriz\obj\Debug\net7.0\refint\Automotriz.dll
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\Automotriz\Automotriz\obj\Debug\net7.0\Automotriz.pdb
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\Automotriz\Automotriz\obj\Debug\net7.0\Automotriz.genruntimeconfig.cache
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\Automotriz\Automotriz\obj\Debug\net7.0\ref\Automotriz.dll
