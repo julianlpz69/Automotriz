@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\APT01-51\\Desktop\\CshartRepos\\Automotriz\\Automotriz\\Automotriz.csproj": {}
+    "c:\\Users\\APT01-51\\Desktop\\CshartRepos\\Automotriz\\Automotriz\\BaseDatos\\Core\\Core.csproj": {}
   },
   "projects": {
-    "c:\\Users\\APT01-51\\Desktop\\CshartRepos\\Automotriz\\Automotriz\\Automotriz.csproj": {
+    "c:\\Users\\APT01-51\\Desktop\\CshartRepos\\Automotriz\\Automotriz\\BaseDatos\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\APT01-51\\Desktop\\CshartRepos\\Automotriz\\Automotriz\\Automotriz.csproj",
-        "projectName": "Automotriz",
-        "projectPath": "c:\\Users\\APT01-51\\Desktop\\CshartRepos\\Automotriz\\Automotriz\\Automotriz.csproj",
+        "projectUniqueName": "c:\\Users\\APT01-51\\Desktop\\CshartRepos\\Automotriz\\Automotriz\\BaseDatos\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "c:\\Users\\APT01-51\\Desktop\\CshartRepos\\Automotriz\\Automotriz\\BaseDatos\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\APT01-51\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\APT01-51\\Desktop\\CshartRepos\\Automotriz\\Automotriz\\obj\\",
+        "outputPath": "c:\\Users\\APT01-51\\Desktop\\CshartRepos\\Automotriz\\Automotriz\\BaseDatos\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APT01-51\\AppData\\Roaming\\NuGet\\NuGet.Config"
