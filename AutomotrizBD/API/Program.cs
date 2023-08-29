@@ -1,3 +1,4 @@
+using System.Reflection;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.ConfigureCors();
 builder.Services.AddAppServices();
+builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
 
 builder.Services.AddDbContext<AutomotrizBDContext>(optionsBuilder =>
 {

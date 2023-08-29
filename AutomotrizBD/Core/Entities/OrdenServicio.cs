@@ -11,7 +11,7 @@ namespace Core.Entities
     public Vehiculo Vehiculo {get; set;}
     public ICollection<Empleado> Empleados { get; set; }
     public ICollection<OrdenAprovacion> OrdenesAprovacion { get; set; }
-    public ICollection<ExpertoDiagnostico> ExpertosDiagnosticos { get; set; }
+    public ICollection<EmpleadoDiagnostico> EmpleadoDiagnosticos { get; set; }
     public int IdFactura {get; set;}
     public Factura Factura {get; set;}
     }

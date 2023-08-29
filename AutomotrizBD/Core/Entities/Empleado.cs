@@ -8,6 +8,6 @@ namespace Core.Entities
         public int IdOrdenServicioFK {get; set;}
         public OrdenServicio OrdenServicio {get; set;}
 
-
+         public ICollection<EmpleadoDiagnostico> EmpleadoDiagnosticos { get; set; }
     }
 }

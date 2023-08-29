@@ -13,9 +13,8 @@ public class AutomotrizBDContext : DbContext
 
     public DbSet<Cliente> Clientes{ get; set; }
     public DbSet<Empleado> Empleados { get; set; }
-    public DbSet<Experto> Expertos { get; set; }
     public DbSet<CargoEmpleado> CargosEmpleados { get; set; }
-    public DbSet<ExpertoDiagnostico> ExpertosDiagnosticos { get; set;}
+    public DbSet<EmpleadoDiagnostico> EmpleadoDiagnosticos { get; set;}
     public DbSet<OrdenAprovacion> OrdenesAprovacion { get; set;}
     public DbSet<OrdenServicio> OrdenesServicio { get; set;}
     public DbSet<Repuesto> Repuestos { get; set;}
@@ -47,10 +46,10 @@ public class AutomotrizBDContext : DbContext
             .HasForeignKey(s => s.IdClienteFK);    
 
 
-        modelBuilder.Entity<Experto>() 
-            .HasMany<ExpertoDiagnostico>(g => g.ExpertoDiagnosticos) 
-            .WithOne(s => s.Experto) 
-            .HasForeignKey(s => s.IdExpertoFK);
+        modelBuilder.Entity<Empleado>() 
+            .HasMany<EmpleadoDiagnostico>(g => g.EmpleadoDiagnosticos) 
+            .WithOne(s => s.Empleado) 
+            .HasForeignKey(s => s.IdEmpleadoFK);
 
 
         modelBuilder.Entity<OrdenAprovacion>() 
@@ -72,7 +71,7 @@ public class AutomotrizBDContext : DbContext
 
 
         modelBuilder.Entity<OrdenServicio>() 
-            .HasMany<ExpertoDiagnostico>(g => g.ExpertosDiagnosticos) 
+            .HasMany<EmpleadoDiagnostico>(g => g.EmpleadoDiagnosticos) 
             .WithOne(s => s.OrdenServicio) 
             .HasForeignKey(s => s.IdOrdenServicioFK);
 

@@ -14,7 +14,7 @@ public class GenericRepo<T> : IGenericRepo<T> where T : BaseEntiti
     {
         _context = context;
     }
-
+    
     public virtual void Add(T entity)
     {
         _context.Set<T>().Add(entity);
@@ -49,6 +49,7 @@ public class GenericRepo<T> : IGenericRepo<T> where T : BaseEntiti
     public virtual void Remove(T entity)
     {
         _context.Set<T>().Remove(entity);
+
     }
 
     public virtual void RemoveRange(IEnumerable<T> entities)
