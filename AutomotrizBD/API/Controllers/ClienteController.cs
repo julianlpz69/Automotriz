@@ -64,8 +64,8 @@ public class ClienteController : BaseApiController
     public async Task<ActionResult<Cliente>> Post(ClienteDto clienteDto)
     {
         var cliente = this.mapper.Map<Cliente>(clienteDto);
-        this.unitofwork.Clientes.Add(cliente);
-        await UnitOfWork.SaveAsync();
+        unitofwork.Clientes.Add(cliente);
+        await unitofwork.SaveAsync();
 
         if (cliente == null){
             return BadRequest();

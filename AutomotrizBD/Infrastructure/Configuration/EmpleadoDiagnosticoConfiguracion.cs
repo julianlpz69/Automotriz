@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Infrastructure.Configuration;
 
-    public class ExpertoDiagnosticoConfiguracion: IEntityTypeConfiguration<ExpertoDiagnostico> 
+    public class EmpleadoDiagnosticoConfiguracion: IEntityTypeConfiguration<EmpleadoDiagnostico> 
     {
-        public void Configure(EntityTypeBuilder<ExpertoDiagnostico> builder)
+        public void Configure(EntityTypeBuilder<EmpleadoDiagnostico> builder)
         {
-            builder.ToTable("expertoDiagnostico");
+            builder.ToTable("empleadoDiagnostico");
 
             builder.Property(p => p.Descripcion)
             .HasMaxLength(50);
